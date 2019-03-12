@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDo renders a list of to do based on state.toDos 1`] = `
+<div
+  className="list"
+>
+  <h1
+    className="list__header"
+  >
+    todos
+  </h1>
+  <StateToDo
+    submit={[Function]}
+  />
+  <ToDo
+    complete={false}
+    deleteToDo={[Function]}
+    key="One"
+    text="One"
+    toggleCompletion={[Function]}
+  />
+  <ToDo
+    complete={true}
+    deleteToDo={[Function]}
+    key="Two"
+    text="Two"
+    toggleCompletion={[Function]}
+  />
+</div>
+`;
